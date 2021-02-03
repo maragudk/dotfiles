@@ -13,3 +13,5 @@
 	required = true
 [init]
 	defaultBranch = main
+[core]
+	excludesFile = ~/.gitignore
