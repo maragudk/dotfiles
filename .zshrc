@@ -13,3 +13,6 @@ export PATH="$PATH:/Users/markus/Developer/go/bin"
 
 setopt prompt_subst
 PROMPT='%~$(git_branch) '
+
+autoload -U compinit
+compinit
