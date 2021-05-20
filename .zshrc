@@ -20,7 +20,7 @@ export GOPATH=~/Developer/go
 export PATH="$PATH:/Users/markus/Developer/go/bin:/Users/markus/bin"
 
 setopt prompt_subst
-PROMPT='%~$(git_branch)$(aws_profile) § '
+PROMPT='%~$(git_branch)$(aws_profile) $ '
 
 autoload -U compinit
 compinit
