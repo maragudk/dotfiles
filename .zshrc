@@ -31,5 +31,8 @@ alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 # Created by `pipx` on 2023-10-16 09:23:45
 export PATH="$PATH:/Users/markus/.local/bin"
 eval "$(register-python-argcomplete pipx)"
+
 export MODULAR_HOME="/Users/markus/.modular"
 export PATH="/Users/markus/.modular/pkg/packages.modular.com_mojo/bin:$PATH"
+
+export EDITOR="subl"
